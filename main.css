@@ -2,17 +2,32 @@ body{
     background-color: black;
 }
 .background{
-background-color: brown;
-width: 420px;
+background-color: rgba(255, 255, 255, 0.15);
+width: 400px;
 height: 520px;
 position: absolute;
 left: 50%;
 top: 50%;
 transform: translate(-50%, -50%);
+border-radius: 12px;
 }
 .circle{
     background-color: aqua;
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-100px, -100px);
+}
+.circle1{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(100px, 100px);
 }
